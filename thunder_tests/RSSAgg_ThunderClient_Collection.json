@@ -1,0 +1,140 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "RSSAgg",
+    "collectionId": "cfce21e2-4a8a-4d1b-8ad6-0850a90cef5a",
+    "dateExported": "2025-07-24T17:10:22.693Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "19e8fb76-fbf8-404f-bff8-579998b40b81",
+            "colId": "cfce21e2-4a8a-4d1b-8ad6-0850a90cef5a",
+            "containerId": "",
+            "name": "Get Posts",
+            "url": "http://localhost:8080/v1/posts",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-07-24T17:09:36.550Z",
+            "modified": "2025-07-24T17:09:36.550Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "ApiKey 40b7c12caabe4b4b2ff954ae87f8ebd177706aa9a538ce05630fe8bfe8b1b6c9"
+                }
+            ]
+        },
+        {
+            "_id": "5a02da9a-a216-4ca1-bf95-716fc8d517e0",
+            "colId": "cfce21e2-4a8a-4d1b-8ad6-0850a90cef5a",
+            "containerId": "",
+            "name": "Create Feed",
+            "url": "http://localhost:8080/v1/feeds",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-07-24T17:09:45.856Z",
+            "modified": "2025-07-24T17:09:45.856Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "ApiKey 40b7c12caabe4b4b2ff954ae87f8ebd177706aa9a538ce05630fe8bfe8b1b6c9"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Boot Dev Blog\",\n  \"url\": \"https://blog.boot.dev/index.xml\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "323b9e45-39da-4655-8a65-614e3b51f32e",
+            "colId": "cfce21e2-4a8a-4d1b-8ad6-0850a90cef5a",
+            "containerId": "",
+            "name": "Delete Feed Follow",
+            "url": "http://localhost:8080/v1/feed_follows/99317316-5629-4126-910c-b1c342cd3ac1",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2025-07-24T17:09:52.207Z",
+            "modified": "2025-07-24T17:09:52.207Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "ApiKey 40b7c12caabe4b4b2ff954ae87f8ebd177706aa9a538ce05630fe8bfe8b1b6c9"
+                }
+            ]
+        },
+        {
+            "_id": "c26b7cc1-e64e-47ff-9785-9c002f115aaf",
+            "colId": "cfce21e2-4a8a-4d1b-8ad6-0850a90cef5a",
+            "containerId": "",
+            "name": "Get All Feed Follow",
+            "url": "http://localhost:8080/v1/feed_follows",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2025-07-24T17:09:58.056Z",
+            "modified": "2025-07-24T17:09:58.056Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "ApiKey 40b7c12caabe4b4b2ff954ae87f8ebd177706aa9a538ce05630fe8bfe8b1b6c9"
+                }
+            ]
+        },
+        {
+            "_id": "76535988-da05-4f6c-b5fb-5e4b30b2af2f",
+            "colId": "cfce21e2-4a8a-4d1b-8ad6-0850a90cef5a",
+            "containerId": "",
+            "name": "Create Feed Follow",
+            "url": "http://localhost:8080/v1/feed_follows",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2025-07-24T17:10:04.254Z",
+            "modified": "2025-07-24T17:10:04.254Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "ApiKey 40b7c12caabe4b4b2ff954ae87f8ebd177706aa9a538ce05630fe8bfe8b1b6c9"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"feed_id\": \"7c2441bd-5a7c-461e-9e03-b9283a5bad79\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "bb0d23e0-d050-41b9-aaf5-b706fe8ab795",
+            "colId": "cfce21e2-4a8a-4d1b-8ad6-0850a90cef5a",
+            "containerId": "",
+            "name": "Get Feeds",
+            "url": "http://localhost:8080/v1/feeds",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2025-07-24T17:10:09.013Z",
+            "modified": "2025-07-24T17:10:09.013Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "ApiKey 40b7c12caabe4b4b2ff954ae87f8ebd177706aa9a538ce05630fe8bfe8b1b6c9"
+                }
+            ]
+        },
+        {
+            "_id": "d09e5049-459c-47a9-b63e-960755121d30",
+            "colId": "cfce21e2-4a8a-4d1b-8ad6-0850a90cef5a",
+            "containerId": "",
+            "name": "Create Users",
+            "url": "http://localhost:8080/v1/users",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2025-07-24T17:10:14.364Z",
+            "modified": "2025-07-24T17:10:14.364Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"billy\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "-9qF47VO5gTmpa_OkdIlz-4nZzD-nrD0nxzhAkw9rQ6Ehe4KBXnT_UMSJjeOpzxhVzW3FR_42ygK9akKaG24bg"
+}
